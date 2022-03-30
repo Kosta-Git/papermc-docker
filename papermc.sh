@@ -44,4 +44,4 @@ then
 fi
 
 # Start server
-exec java -server ${JAVA_OPTS} -Dpaper.playerconnection.keepalive=60 -jar ${JAR_NAME} nogui
+exec java -server ${JAVA_OPTS} -Dpaper.playerconnection.keepalive=24 -jar ${JAR_NAME} nogui
